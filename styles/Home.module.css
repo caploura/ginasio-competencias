@@ -1,6 +1,33 @@
-.container {
+.welcome{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  flex-direction: column;
+}
+
+.mainLogo {
+  height: 20rem;
+  width: auto;
+}
+
+.stringWithIcon {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  gap: 1rem
+}
+
+.socialMedia > * {
+  font-size: 2rem;
 }

@@ -26,3 +26,7 @@ a {
     background: black;
   }
 }
+
+section {
+  margin-bottom: 2rem;
+}
