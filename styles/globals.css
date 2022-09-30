@@ -27,11 +27,11 @@ a {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
   body {
     padding: 1rem;
   }
-}
+} */
 
 section {
   margin-bottom: 1rem;
