@@ -12,7 +12,7 @@ export default function Home() {
     <div className={styles.container}>
       <section className={styles.welcome}>
         <img src={logo_no_bg} className={styles.mainLogo}/>
-        <h1>O Website está em construção</h1>
+        <h2>O Website está em construção</h2>
       </section>
 
       <section className={styles.addressInfo}>
