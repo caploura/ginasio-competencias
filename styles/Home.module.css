@@ -40,7 +40,7 @@
   flex-direction: column;
 }
 
-.addressInfo > h4 {
+.addressInfo > p {
   margin: 0;
   padding: 0;
 }

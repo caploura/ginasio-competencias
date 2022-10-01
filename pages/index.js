@@ -16,13 +16,13 @@ export default function Home() {
       </section>
 
       <section className={styles.addressInfo}>
-        <h4 className={styles.stringWithIcon}> <ImHome3/> Rua Santiago Kastner, n°. 8</h4>
-        <h4>2855-583 Corroios</h4>
+        <p className={styles.stringWithIcon}> <ImHome3/> Rua Santiago Kastner, n°. 8</p>
+        <p>2855-583 Corroios</p>
       </section>
 
       <section className={styles.contactInfo}>
-        <h4 className={styles.stringWithIcon}> <CgPhone/> +351 965 148 128</h4>
-        <h4 className={styles.stringWithIcon}> <MdEmail/> geral@ginasio-competencias.pt</h4>
+        <p className={styles.stringWithIcon}> <CgPhone/> +351 965 148 128</p>
+        <p className={styles.stringWithIcon}> <MdEmail/> geral@ginasio-competencias.pt</p>
       </section>
 
       <section className={styles.socialMedia}>
