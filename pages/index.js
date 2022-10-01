@@ -3,6 +3,7 @@ import { CgPhone } from 'react-icons/cg';
 import { MdEmail } from 'react-icons/md';
 import { FaInstagram } from 'react-icons/fa';
 import { AiFillFacebook } from 'react-icons/ai';
+import { ImHome3 } from 'react-icons/im';
 
 const logo_no_bg = '/logos/logo-blue-bg.png';
 
@@ -14,9 +15,14 @@ export default function Home() {
         <h1>O Website está em construção</h1>
       </section>
 
+      <section className={styles.addressInfo}>
+        <h4 className={styles.stringWithIcon}> <ImHome3/> Rua Santiago Kastner, n°. 8</h4>
+        <h4>2855-583 Corroios</h4>
+      </section>
+
       <section className={styles.contactInfo}>
-        <h3 className={styles.stringWithIcon}> <CgPhone/> +351 965 148 128</h3>
-        <h3 className={styles.stringWithIcon}> <MdEmail/> geral@ginasio-competencias.pt</h3>
+        <h4 className={styles.stringWithIcon}> <CgPhone/> +351 965 148 128</h4>
+        <h4 className={styles.stringWithIcon}> <MdEmail/> geral@ginasio-competencias.pt</h4>
       </section>
 
       <section className={styles.socialMedia}>

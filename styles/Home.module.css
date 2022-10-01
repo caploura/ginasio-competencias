@@ -7,7 +7,7 @@
 }
 
 .mainLogo {
-  width: 20rem;
+  width: 30rem;
   height: auto;
 }
 
@@ -31,6 +31,18 @@
 
 .socialMedia > * {
   font-size: 2rem;
+}
+
+.addressInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addressInfo > h4 {
+  margin: 0;
+  padding: 0;
 }
 
 @media only screen and (max-width: 1000px) {
