@@ -46,6 +46,10 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .welcome{
+    margin-top: 0 !important;
+  }
+
   .contactInfo {
     flex-direction: column;
     align-items: center;
